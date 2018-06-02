@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.RegisterPage">
+             x:Class="App1.RegisterPage"
+             Title="RegisterPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center"
                      HorizontalOptions="Center">
 
             <Entry FontSize="Small"
+                   Placeholder="E-mail" />
+            <Entry FontSize="Small"
                    Placeholder="Username" />
             <Entry IsPassword="True"
                    FontSize="Small"
                    Placeholder="Password" />
-            <Button Text="Sign-in"
+            <Entry IsPassword="True"
+                   FontSize="Small"
+                   Placeholder="Retype Password" />
+            <Button Text="Register"
                    FontSize="Small"/>
-            <Button Text="Sign-up" />
+            <Button Text="I'm already member"
+                    FontSize="Small"/>
 
         </StackLayout>
 

@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App1"
-             x:Class="App1.MainPage"
-             Title="Login Screen">
+             x:Class="App1.LoginPage"
+             Title="LoginScreen">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center"
                      HorizontalOptions="Center">
@@ -15,9 +15,10 @@
                    Placeholder="Password" />
             <Button Text="Sign-in"
                    FontSize="Small"/>
-            <Button Text="Sign-up"/>
+            <Button Text="Sign-up"
+                    Clicked="OnClickRegister"/>
 
         </StackLayout>
-    
+
     </ContentPage.Content>
 </ContentPage>
