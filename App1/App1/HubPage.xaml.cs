@@ -9,15 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace App1
 {
-	//[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RegisterPage : ContentPage
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class HubPage : ContentView
 	{
-		public RegisterPage ()
+		public HubPage ()
 		{
-            InitializeComponent2();
+			InitializeComponent ();
 		}
-
-
-
 	}
 }

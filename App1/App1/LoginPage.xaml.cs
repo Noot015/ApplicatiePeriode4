@@ -14,9 +14,11 @@ namespace App1
             InitializeComponent();
         }
 
-        private void OnClickRegister(object sender, EventArgs e)
+        public void OnClickRegister(object sender, EventArgs e)
         {
-            new App1.RegisterPage();
+            DisplayAlert("Alert", "You have been alerted once", "OK");
+            new RegisterPage();
         }
+
     }
 }
