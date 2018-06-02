@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace App1
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HubPage : ContentView
+	public partial class HubPage : ContentPage
 	{
 		public HubPage ()
 		{

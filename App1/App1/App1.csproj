@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="hubBackground.png" />
     <None Remove="image\orange_blue.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <ApplicationDefinition Include="image\orange_blue.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="hubBackground.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,9 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="HubPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="RegisterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
