@@ -7,16 +7,11 @@ using Xamarin.Forms;
 
 namespace App1
 {
-	public partial class MainPage : ContentPage
-	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
-
-            private void OnClickRegister(object sender, EventArgs e)
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
         {
-            
+            InitializeComponent();
         }
     }
 }

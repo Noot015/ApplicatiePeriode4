@@ -15,10 +15,7 @@
                    Placeholder="Password" />
             <Button Text="Sign-in"
                    FontSize="Small"/>
-            <Button Text="Sign-up"
-                    x:Name="Sign-up"
-                    Content="CLick"
-                    Clicked="OnClickRegister"/>
+            <Button Text="Sign-up"/>
 
         </StackLayout>
     
