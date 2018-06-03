@@ -14,19 +14,10 @@ namespace App1
 	{
 		public RegisterPage ()
 		{
-            InitializeComponent();
+            InitializeComponent2();
 		}
 
-        public void OnClickLogin(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new LoginPage();
-        }
-
-        public void OnClickHub(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new HubPage();
-        }
 
 
-    }
+	}
 }

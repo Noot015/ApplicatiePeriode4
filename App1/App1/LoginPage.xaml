@@ -14,8 +14,7 @@
                    FontSize="Small"
                    Placeholder="Password" />
             <Button Text="Sign-in"
-                   FontSize="Small"
-                    Clicked="OnClickHub"/>
+                   FontSize="Small"/>
             <Button Text="Sign-up"
                     Clicked="OnClickRegister"/>
 
