@@ -18,9 +18,11 @@
                    FontSize="Small"
                    Placeholder="Retype Password" />
             <Button Text="Register"
-                   FontSize="Small"/>
+                   FontSize="Small"
+                    Clicked="OnClickHub"/>
             <Button Text="I'm already member"
-                    FontSize="Small"/>
+                    FontSize="Small"
+                    Clicked="OnClickLogin"/>
 
         </StackLayout>
 
