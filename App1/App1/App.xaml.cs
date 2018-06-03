@@ -14,7 +14,7 @@ namespace App1
 		{
 			InitializeComponent();
 
-			MainPage = new App1.HubPage();
+			MainPage = new App1.LoginPage();
 		}
 
 		protected override void OnStart ()

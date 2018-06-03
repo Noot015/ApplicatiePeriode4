@@ -16,8 +16,12 @@ namespace App1
 
         public void OnClickRegister(object sender, EventArgs e)
         {
-            DisplayAlert("Alert", "You have been alerted once", "OK");
-            new RegisterPage();
+            App.Current.MainPage = new RegisterPage();
+        }
+
+        public void OnClickHub(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new HubPage();
         }
 
     }
